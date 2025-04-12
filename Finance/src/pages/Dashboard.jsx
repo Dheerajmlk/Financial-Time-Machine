@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import useFinanceStore from '../store/useFinanceStore'
+import useFinanceStore from '../services/financeStore'
 
 export default function Dashboard() {
   const {
